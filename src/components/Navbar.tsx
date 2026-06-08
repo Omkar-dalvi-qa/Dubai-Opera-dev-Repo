@@ -257,7 +257,7 @@ export default function Navbar({
                     />
                   </Link>
                   <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                    <div className="bg-[#1a1a1a] rounded-lg min-w-45 shadow-xl overflow-hidden mt-1">
+                    <div data-testid={`nav-${item.label.toLowerCase().replace(/\s+/g, "-")}-dropdown-panel`} className="bg-[#1a1a1a] rounded-lg min-w-45 shadow-xl overflow-hidden mt-1">
                       {item.children.map((child, childIndex) => {
                         const childKey = `${itemKey}:child:${childIndex}:${child.label}:${child.href}`;
                         const isChildActive = pathname === child.href;
