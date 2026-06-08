@@ -460,13 +460,14 @@ export default function EventTicketCard({
         }
         bookingCtx?.setReservationId(String(reservationResponse.reservation_id));
         targetSearchParams.append("rid", String(reservationResponse.reservation_id));
-        if (user?.emmarId) {
-          router.push(`${targetPathname}?${targetSearchParams.toString()}`);
-        } else {
-          setRedirectUrl(`${targetPathname}?${targetSearchParams.toString()}`);
-          setShowLoginModal(true);
-          setIsBookingRedirecting(false);
-        }
+        // if (user?.emmarId) {
+        //   router.push(`${targetPathname}?${targetSearchParams.toString()}`);
+        // } else {
+        //   setRedirectUrl(`${targetPathname}?${targetSearchParams.toString()}`);
+        //   setShowLoginModal(true);
+        //   setIsBookingRedirecting(false);
+        // }
+        router.push(`${targetPathname}?${targetSearchParams.toString()}`);
         return;
       } catch (error) {
         const message = error instanceof Error ? error.message : "Failed to create reservation.";
