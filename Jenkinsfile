@@ -137,12 +137,6 @@ pipeline {
                         prevBuild?.result == 'UNSTABLE' &&
                         env.TEST_FAILED != '0'
                     ) ? 'REGRESSION' : 'NEW FAILURE'
-
-                    // Set email recipients safely
-                    env.EMAIL_RECIPIENTS = "omkardalvi861@gmail.com"
-                    if (env.DEV_COMMIT_EMAIL && env.DEV_COMMIT_EMAIL != 'N/A') {
-                        env.EMAIL_RECIPIENTS = "omkardalvi861@gmail.com, ${env.DEV_COMMIT_EMAIL}"
-                    }
                 }
             }
         }
@@ -158,7 +152,7 @@ pipeline {
             ])
 
             emailext(
-                to: env.EMAIL_RECIPIENTS,
+                 to: "omkardalvi861@gmail.com,omkar.dalvi@enpointe.io",
                 subject: "Dubai Opera Tests — Build #${BUILD_NUMBER}: ${currentBuild.currentResult}",
                 body: """
                     <html>
