@@ -1,7 +1,7 @@
 // import { notFound } from "next/navigation";
 
 // export default function LocaleCatchAllNotFoundPage() {
-//   notFound();///////// ///// ///// //// ////
+//   notFound();///////// ///// ///// //// ////.  .....ßß
 // } /////// //// .\/// ////
 import Banner from "@/components/programs/Banner";
 import { Cormorant_Garamond, Manrope, Montserrat } from "next/font/google";
