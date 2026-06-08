@@ -1,6 +1,6 @@
 // import { notFound } from "next/navigatassasadsadion"; ////////////////////////// /////////////
 ///bdhbashfbkasbkfbaskbfkj ///////////////////////. /////////////////////
-/////////////////. 1233 ddd vgghvghvghvgvgj
+/////////////////. 1233 ddd vgghvghvghvgvgj njnajjkakcjajkscjkbaskjc
 import Banner from "@/components/programs/Banner";
 import { Cormorant_Garamond, Manrope, Montserrat } from "next/font/google";
 // app/[locale]/[slug]/page.tsx ////
