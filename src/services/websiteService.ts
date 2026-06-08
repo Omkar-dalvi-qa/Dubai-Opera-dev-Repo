@@ -3,7 +3,7 @@ import { createServerApi } from "./apiClient";
 function readEnv(name: string): string {
   const raw = process.env[name];
   if (!raw) return "";
-  // Handle accidental wrapping quotes in .env like: "http://..." or 'http://...'
+  // Handle accidental wrapping quotes in .env like: "http://..." or 'http://...' ///
   return raw.trim().replace(/^['"]|['"]$/g, "");
 }
 
