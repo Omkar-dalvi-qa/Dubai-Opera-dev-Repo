@@ -340,6 +340,3 @@ export default function VisitToursPageClient({
     </main>
   );
 }
-////asjcnjasciasnn
-
-/////,,,,,,,,,,,,,,,,////////////////////
