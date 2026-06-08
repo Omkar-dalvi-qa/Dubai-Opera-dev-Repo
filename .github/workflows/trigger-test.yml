@@ -9,10 +9,17 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping test repo
+      - name: Checkout test repo
+        uses: actions/checkout@v3
+        with:
+          repository: Omkar-dalvi-qa/Dubai-Opera-TestCases
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Push trigger commit
         run: |
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/Omkar-dalvi-qa/Dubai-Opera-TestCases/dispatches \
-            -d '{"event_type":"dev-push"}'
+          git config user.email "omkar.dalvi@enpointe.io"
+          git config user.name "Omkar Dalvi"
+          echo "$(date)" > .trigger
+          git add .trigger
+          git commit -m "trigger: dev push detected"
+          git push
