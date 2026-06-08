@@ -96,6 +96,12 @@ pipeline {
                     // Previous build
                     def prev = currentBuild.previousBuild
                     env.PREV_STATUS = prev ? prev.result.toString() : 'N/A'
+
+                    // Build email list safely
+env.EMAIL_TO = "omkardalvi861@gmail.com"
+if (env.DEV_EMAIL != null && env.DEV_EMAIL != '' && env.DEV_EMAIL != 'N/A') {
+    env.EMAIL_TO = env.EMAIL_TO + ',' + env.DEV_EMAIL
+}
                 }
             }
         }
@@ -111,7 +117,7 @@ pipeline {
             ])
 
             emailext(
-                to: "omkardalvi861@gmail.com",
+                to:     env.EMAIL_TO,
                 subject: "Dubai Opera — Build #${BUILD_NUMBER}: ${currentBuild.currentResult}",
                 body: """
                 <html>
