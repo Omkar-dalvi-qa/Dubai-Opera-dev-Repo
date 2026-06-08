@@ -35,7 +35,7 @@ pipeline {
         stage('Trigger Tests') {
             steps {
                 script {
-                    build job: 'dubai-opera-tests',
+                    build job: 'Dubui-Opera-Test',
                         wait: true,
                         propagate: false,
                         parameters: [
