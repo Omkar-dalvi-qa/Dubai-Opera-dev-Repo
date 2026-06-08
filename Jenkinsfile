@@ -36,19 +36,21 @@ pipeline {
         }
 
         stage('Run Playwright Tests') {
-            steps {
-                script {
-                    // Get tester repo commit info
-                    dir('/Users/sanathshetty/.jenkins/workspace/dubai-opera-tests') {
-                        env.TEST_COMMIT_MSG    = sh(script: "git log -1 --pretty='%s'",  returnStdout: true).trim()
-                        env.TEST_COMMIT_AUTHOR = sh(script: "git log -1 --pretty='%an'", returnStdout: true).trim()
-                        env.TEST_COMMIT_DATE   = sh(script: "git log -1 --pretty='%ad' --date=format:'%d %b %Y %H:%M'", returnStdout: true).trim()
-                    }
-                }
-                // Run the actual tests
-                build job: 'dubai-opera-tests', wait: true
-            }
+    steps {
+        script {
+            // Pass dev commit info to the test job
+            build job: 'dubai-opera-tests',
+                wait: true,
+                parameters: [
+                    string(name: 'DEV_AUTHOR',  value: env.DEV_COMMIT_AUTHOR),
+                    string(name: 'DEV_COMMIT',  value: env.DEV_COMMIT_MSG),
+                    string(name: 'DEV_DATE',    value: env.DEV_COMMIT_DATE),
+                    string(name: 'DEV_HASH',    value: env.DEV_COMMIT_HASH),
+                    string(name: 'DEV_EMAIL',   value: env.DEV_COMMIT_EMAIL)
+                ]
         }
+    }
+}
 
     }
 
