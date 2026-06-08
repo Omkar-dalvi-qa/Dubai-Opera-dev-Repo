@@ -1,0 +1,533 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Optima";
+  src: url("/fonts/OPTIMA.TTF") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Petit Formal Script";
+  src: url("/fonts/PetitFormalScript-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-primary: #792327;
+  /* Primary dark red/maroon from the design */
+  --color-primary-light: #792327;
+  --color-background-dark: #121212;
+  --color-surface: #1e1e1e;
+  /* Dark card background */
+  --font-sans: var(--font-inter), sans-serif;
+  --font-serif: var(--font-playfair), serif;
+  --font-noto-sans: "Noto Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-optima: "Optima", sans-serif;
+  --font-petit-formal: "Petit Formal Script", cursive;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom Utilities */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Hero carousel animations */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.3s ease-out both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out both;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+/* React Datepicker dark theme + open animation (opacity only to preserve library position) */
+.datepicker-popper {
+  opacity: 0;
+  animation: datepickerOpen 0.4s ease-out forwards;
+  z-index: 9999;
+}
+
+.datepicker-popper-elevated {
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+}
+
+@keyframes datepickerOpen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.datepicker-popper .react-datepicker {
+  background-color: #1e1e1e !important;
+  border: 0 !important;
+  border-radius: 16px !important;
+  padding: 16px 14px 12px !important;
+  font-family: "Montserrat", sans-serif !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45) !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+.datepicker-popper .react-datepicker__header {
+  background-color: transparent !important;
+  border-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.datepicker-popper .react-datepicker__month-container {
+  width: 100% !important;
+}
+
+.datepicker-popper .react-datepicker__month {
+  margin: 0 !important;
+}
+
+.datepicker-popper .react-datepicker__current-month {
+  color: #ffffff !important;
+  font-family: "Optima", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1 !important;
+  text-align: left !important;
+  margin-bottom: 10px !important;
+}
+
+/* Custom profile header: scrollable month/year lists */
+.datepicker-profile-header ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+.datepicker-profile-header ul::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+  border-radius: 4px;
+}
+
+.datepicker-profile-header ul {
+  scrollbar-color: #4a4a4a #1a1a1a;
+  scrollbar-width: thin;
+}
+
+/* Native month/year <select> (showMonthDropdown / showYearDropdown + dropdownMode="select") */
+.datepicker-popper .react-datepicker__month-select,
+.datepicker-popper .react-datepicker__year-select,
+.datepicker-popper .react-datepicker__month-year-select {
+  background-color: #2a2a2a !important;
+  border: 1px solid #3a3a3a !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  padding: 10px 36px 10px 12px !important;
+  min-height: 44px !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  color-scheme: dark !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.75)' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 10px center !important;
+  background-size: 16px 16px !important;
+}
+
+.datepicker-popper .react-datepicker__month-select:hover,
+.datepicker-popper .react-datepicker__year-select:hover,
+.datepicker-popper .react-datepicker__month-year-select:hover {
+  border-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+.datepicker-popper .react-datepicker__month-select:focus,
+.datepicker-popper .react-datepicker__year-select:focus,
+.datepicker-popper .react-datepicker__month-year-select:focus {
+  outline: none !important;
+  border-color: #792327 !important;
+  box-shadow: 0 0 0 1px rgba(121, 35, 39, 0.55) !important;
+}
+
+.datepicker-popper .react-datepicker__month-select option,
+.datepicker-popper .react-datepicker__year-select option,
+.datepicker-popper .react-datepicker__month-year-select option {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.datepicker-popper .react-datepicker__month-dropdown-container--select,
+.datepicker-popper .react-datepicker__year-dropdown-container--select {
+  margin: 0 6px !important;
+}
+
+.datepicker-popper .react-datepicker__navigation {
+  top: 12px !important;
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-size: 12px !important;
+  z-index: 3 !important;
+  pointer-events: auto !important;
+}
+
+.datepicker-popper .react-datepicker__navigation--previous {
+  left: auto !important;
+  right: 34px !important;
+}
+
+.datepicker-popper .react-datepicker__navigation--next {
+  right: 4px !important;
+}
+
+.datepicker-popper .react-datepicker__navigation-icon::before {
+  display: block !important;
+  border-color: #ffffff !important;
+  border-width: 2px 2px 0 0 !important;
+  width: 8px !important;
+  height: 8px !important;
+  top: 8px !important;
+}
+
+.datepicker-popper .react-datepicker__navigation::after {
+  content: none !important;
+}
+
+.datepicker-popper .react-datepicker__navigation--previous::after {
+  content: none !important;
+}
+
+.datepicker-popper .react-datepicker__navigation--next::after {
+  content: none !important;
+}
+
+.datepicker-popper .react-datepicker__day-names {
+  margin-bottom: 6px !important;
+}
+
+.datepicker-popper .react-datepicker__day-name {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  width: 1.95rem !important;
+  line-height: 1.95rem !important;
+  margin: 0.07rem !important;
+}
+
+.datepicker-popper .react-datepicker__day {
+  color: white !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  width: 1.95rem !important;
+  line-height: 1.95rem !important;
+  margin: 0.07rem !important;
+  border-radius: 9999px !important;
+}
+
+.datepicker-popper .react-datepicker__day:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.datepicker-popper .react-datepicker__day--selected,
+.datepicker-popper .react-datepicker__day--keyboard-selected,
+.datepicker-popper .react-datepicker__day--in-range,
+.datepicker-popper .react-datepicker__day--in-selecting-range {
+  background-color: #8b262c !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+/* Highlight dates that have an event/availability. */
+.datepicker-popper .react-datepicker__day.event-day {
+  box-shadow: inset 0 0 0 1px rgba(187, 43, 50, 0.9) !important;
+}
+
+.datepicker-popper .react-datepicker__day--selected:hover,
+.datepicker-popper .react-datepicker__day--keyboard-selected:hover,
+.datepicker-popper .react-datepicker__day--in-range:hover,
+.datepicker-popper .react-datepicker__day--in-selecting-range:hover {
+  background-color: #8b262c !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+.datepicker-popper .react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range) {
+  background-color: #8b262c !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+.datepicker-popper .react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range):hover {
+  background-color: #8b262c !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+.datepicker-popper .react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range),
+.datepicker-popper .react-datepicker__year--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range) {
+  background-color: #8b262c !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+.datepicker-popper .react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range):hover,
+.datepicker-popper .react-datepicker__year--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range):hover {
+  background-color: #8b262c !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+.datepicker-popper .react-datepicker__day--outside-month {
+  color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.datepicker-popper .react-datepicker__day--disabled,
+.datepicker-popper .react-datepicker__month-text--disabled,
+.datepicker-popper .react-datepicker__quarter-text--disabled,
+.datepicker-popper .react-datepicker__year-text--disabled {
+  color: rgba(255, 255, 255, 0.35) !important;
+  cursor: default !important;
+}
+
+.datepicker-popper .react-datepicker__day--disabled:hover,
+.datepicker-popper .react-datepicker__month-text--disabled:hover,
+.datepicker-popper .react-datepicker__quarter-text--disabled:hover,
+.datepicker-popper .react-datepicker__year-text--disabled:hover {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* React-select filter controls - single line, no cutoff */
+.venue-select__control,
+.category-select__control,
+.seasons-filter-select__control {
+  overflow: visible !important;
+}
+
+.venue-select__control--is-focused,
+.category-select__control--is-focused,
+.seasons-filter-select__control--is-focused {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.venue-select__value-container,
+.category-select__value-container,
+.seasons-filter-select__value-container {
+  overflow: visible !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
+}
+
+/* Tighter spacing between value and indicators (cross + dropdown) */
+.venue-select__indicators,
+.category-select__indicators,
+.seasons-filter-select__indicators {
+  gap: 2px !important;
+  padding-left: 2px !important;
+}
+
+/* Rotate dropdown arrow when menu is open */
+.venue-select__control--menu-is-open .venue-select__dropdown-indicator,
+.category-select__control--menu-is-open .category-select__dropdown-indicator,
+.seasons-filter-select__control--menu-is-open .seasons-filter-select__dropdown-indicator {
+  transform: rotate(180deg);
+  transition: transform 0.35s ease;
+}
+
+/* Remove hover effect on dropdown arrow */
+.venue-select__dropdown-indicator:hover,
+.category-select__dropdown-indicator:hover,
+.seasons-filter-select__dropdown-indicator:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+  background-color: transparent !important;
+}
+
+/* Remove hover effect on close (clear) button */
+.venue-select__clear-indicator:hover,
+.category-select__clear-indicator:hover,
+.seasons-filter-select__clear-indicator:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+  background-color: transparent !important;
+}
+
+@keyframes selectMenuOpenSlow {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.venue-select__menu,
+.category-select__menu,
+.seasons-filter-select__menu {
+  animation: selectMenuOpenSlow 0.3s ease-out both;
+}
+
+
+.hideScrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Fix browser autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #151515 inset !important;
+  -webkit-text-fill-color: white !important;
+  caret-color: #151515;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+
+/* Swiper Custom Styles */
+.custom-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 20px !important;
+  background: #FFFFFF33 !important;
+  opacity: 1 !important;
+  display: inline-block !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  width: 40px !important;
+}
+
+.swiper-button-disabled {
+  opacity: 0.35 !important;
+  cursor: not-allowed !important;
+}
+
+/* Tours gallery pagination styling */
+.tours-gallery-swiper .swiper-pagination {
+  bottom: 20px !important;
+}
+
+.tours-gallery-swiper .swiper-pagination-bullet {
+  width: 50px !important;
+  height: 5px !important;
+  border-radius: 20px !important;
+  background: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1 !important;
+}
+
+.tours-gallery-swiper .swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  width: 50px !important;
+}
+
+.tours-gallery-swiper .swiper-wrapper {
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+.theme-white .custom-bullet {
+  background: rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #000000 !important;
+}
+
+.theme-white .swiper-pagination-bullet-active {
+  background: #000000 !important;
+  border: 1px solid #000000 !important;
+}
+
+
+.hideScrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}

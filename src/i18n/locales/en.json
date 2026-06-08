@@ -1,0 +1,468 @@
+{
+  "common": {
+    "signIn": "Sign In",
+    "logout": "Logout",
+    "arabic": "Arabic",
+    "viewAll": "View All",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "whatsOn": "What’s On",
+    "loading": "Loading...",
+    "season": "Season",
+    "events": "Events",
+    "search": "Search...",
+    "from": "From",
+    "ticketsAvailable": "Tickets Available",
+    "searching": "Searching...",
+    "noEventsFound": "No events found",
+    "readMore": "Read More",
+    "newsAndUpdates": "News & Updates",
+    "venueTour": "Venue Tour",
+    "contactUs": "Contact Us",
+    "subscribeToOurNewsletter": "Subscribe to our newsletter",
+    "subscribe": "Subscribe",
+    "subscribeNow": "Subscribe Now",
+    "thanksForSubscribing": "Thanks for subscribing!",
+    "youAreSubscribed": "You are subscribed!",
+    "youAreAlreadySubscribed": "You are already subscribed!",
+    "pleaseEnterYourEmail": "Please enter your email",
+    "noPerformancesMatchThisDate": "No performances match this date."
+  },
+  "newsletter": {
+    "subscribeToGet": "Subscribe to get",
+    "ourNewsletter": "Our Newsletter",
+    "enterAValidEmail": "Please enter your email",
+    "submitting": "Submitting...",
+    "submit": "Submit",
+    "thanks": "Thanks",
+    "youAreSubscribed": "You are subscribed!",
+    "youAreAlreadySubscribed": "You are already subscribed!",
+    "somethingWentWrong": "Something went wrong"
+  },
+  "partners": {
+    "ourPartners": "Our Partners",
+    "our": "Our",
+    "partners": "Partners",
+    "officialPartners": "Official Partners",
+    "strategicPartners": "Strategic Partners",
+    "fragrancePartner": "Fragrance Partner",  
+    "mediaPartner": "Media Partner",
+    "technologyPartner": "Technology Partner",
+    "supportPartner": "Support Partner",
+    "educationalPartner": "Educational Partner",
+    "communityPartner": "Community Partner",
+    "balletAndDanceSponsor": "Ballet & Dance Sponsor",
+    "pianoPartner": "Piano Partner",
+    "hospitalityPartner": "Hospitality Partner",
+    "memberOf": "Member Of",
+    "operaEuropa": "Opera Europa",
+    "carnegieHallWeillMusicInstitute": "Carnegie Hall Weill Music Institute",
+    "dct": "DCT",
+    "operaEurope": "Opera Europe"
+  },
+  "about": {
+    "title": "About",
+    "the": "THE",
+    "storyToTell": "STORY TO TELL",
+    "ourStory": "Our Story",
+    "theHouseOfCultures": "The House of Cultures",
+    "houseOfCulturesDescription": "Dubai Opera, proudly known as the \"House of Cultures\", stands as a distinguished icon in the heart of Downtown Dubai. Since its inauguration in 2016, this architectural masterpiece, inspired by the traditional dhow boats of the Arabian Gulf, has become a symbol of Dubai's rich cultural heritage and its commitment to the global arts scene.",
+    "ourStoryParagraph2": "Designed with unparalleled versatility, Dubai Opera can transform seamlessly from a grand theatre to a concert hall or a flat-floor event space, making it one of the most innovative performing arts venues in the world. With a seating capacity of up to 2,000, Dubai Opera hosts a diverse array of performances - from the grandeur of classical opera and ballet to the dynamic rhythms of contemporary music and theatre.",
+    "ourStoryParagraph3": "Dubai Opera is a cultural landmark where the arts come alive, a place where traditions meet innovation, and where audiences are invited to experience the transformative power of live performance. Whether you are attending a world-class performance or exploring its architectural beauty, Dubai Opera promises an unforgettable journey into the heart of culture and creativity.",
+    "growingLegacy": "A Growing Legacy",
+    "growingLegacyDescription": "Since January 2024, more than 230,000 patrons have walked through our doors. In the 2022-2023 season alone (September to May), Dubai Opera welcomed over 1.25 million visitors - a testament to its growing role as a cultural powerhouse in the region and beyond. To date, we have hosted over 2,500 performances and welcomed more than 6,500 incredible artists from around the world.",
+    "excellingAtTheArt": "Excelling At The Art",
+    "stats": {
+      "size": { "label": "Size", "value": "650,000 sq ft" },
+      "seatingCapacity": { "label": "Seating Capacity", "value": "2,000" },
+      "opened": { "label": "Opened", "value": "31 August 2016" },
+      "developer": { "label": "Developer", "value": "Emaar Properties" }
+    },
+    "venues": {
+      "title": "Our Venues",
+      "showPreviousVenue": "Show previous venue",
+      "showNextVenue": "Show next venue",
+      "showSlide": "Show {name}",
+      "slides": {
+        "auditorium": {
+          "title": "Auditorium",
+          "imageAlt": "Auditorium",
+          "description": "Step into the Dubai Opera Auditorium, a versatile multi-form theatre situated in the heart of Dubai Downtown. This captivating venue effortlessly transforms from an elegant stage for concerts and theatrical shows to a resplendent concert hall. In traditional theatre mode, it adapts gracefully to host a variety of events, from social and corporate gatherings to gala dinners, weddings, product launches, and fashion shows.\n\nThe Auditorium offers unforgettable nights filled with the mesmerizing sounds of Arabic music, featuring world premiere by some of the most successful singers. Its chameleon-like versatility ensures an extraordinary experience for every occasion, making it a cornerstone in the vibrant cultural scene of Dubai."
+        },
+        "studio": {
+          "title": "Studio",
+          "imageAlt": "Studio venue",
+          "description": "Nestled on the Grand Circle with a panoramic view of the Plaza, The Studio at Dubai Opera is a cutting-edge space where innovation seamlessly blends with intimacy. Tailored for social and corporate events, cocktail receptions, and corporate dinners, this acoustically soundproof haven is more than just a venue - it's an artistic canvas. From dynamic dance practices to impactful product launches, The Studio sets the stage for the extraordinary.\n\nAs a hub for creativity, it has hosted a concert featuring downtown Dubai, an opera house, and accolades like the best world music album and highest attended Arabic concert, showcasing the musical genius that makes every night at The Studio an unforgettable experience for captivated audiences."
+        },
+        "promenade": {
+          "title": "Promenade",
+          "imageAlt": "Promenade",
+          "description": "A stylish connector between our various venues, the Promenade is a prelude to the extraordinary experiences that await. Ideal for weddings, birthday events, gala dinners, social and corporate gatherings, product launches, and New Year parties, the Promenade is where anticipation and elegance converge."
+        },
+        "garden": {
+          "title": "The Garden",
+          "imageAlt": "The Garden",
+          "description": "Situated in the vibrant heart of Downtown Dubai, the Dubai Opera Garden is a stunning open-air venue with panoramic views of the Dubai Fountain and the iconic Burj Khalifa. Accommodating up to 700 standing guests, this versatile space is perfect for a lively program of events, including New Year parties, weddings, birthday celebrations, product launches, gala dinners, and music events. It offers a picturesque setting for every occasion, ensuring an unforgettable night in the heart of downtown Dubai."
+        },
+        "grandCircleFoyer": {
+          "title": "Grand Circle Foyer",
+          "imageAlt": "Grand Circle Foyer",
+          "description": "Elevate your experience in the Grand Circle Foyer, an indoor haven with a spectacular view of The Dubai Fountain. Adorned with the famous Symphony chandelier, this venue is tailor-made for New Year parties, cocktail receptions, birthday events, wedding ceremonies, music events, and gala dinners.\n\nSituated in the heart of the Opera District, it offers an ambiance of unparalleled sophistication, perfect for hosting a world premiere, live concert, or any significant event, whether it's the first in over a year or a lively programme for unforgettable nights."
+        }
+      }
+    },
+    "corporates": {
+      "title": "Corporates",
+      "sponsorsAndPartners": {
+        "title": "Sponsors and Partners",
+        "paragraph1": "Dubai Opera is proud to work with some of the region's world-class sponsors who share our vision and brand ideals. We are most grateful to the following for their commitment and support.",
+        "enquiries": "For sponsorship enquiries",
+        "contact": "Contact"
+      },
+      "corporateSupport": {
+        "title": "Corporate Support",
+        "paragraph1": "Our corporate membership programme offers high-value, year-round access to entertainment and experiences around world-class productions. Perfect for entertaining and engaging clients, stakeholders, employees or community or education partners, we pride ourselves on working with a wide variety of businesses, delivering a great return on investment.",
+        "paragraph2": "For further information, please contact us below to discuss how we can help your business"
+      }
+    },
+    "architecture": {
+      "main": {
+        "heading": "The Architecture",
+        "subheading": "Incredible Transforming Ability Title",
+        "paragraph1": "It gives the exceptional ability to transform into three modes; from a theatre into a concert hall, and into a flat floor mode becoming a banquet or event hall.",
+        "paragraph2": "This seamless flexibility enables Dubai Opera to host a wide variety of performances and events including theatre, opera, ballet, orchestras, concerts, fashion shows, live entertainment, conferences, galleries and art exhibitions.",
+        "imageAlt": "Incredible Transforming Ability"
+      },
+      "concert": {
+        "heading": "Concert Hall Mode",
+        "paragraph1": "In the concert hall mode, a stunning array of elegantly designed towers and reflectors are strategically positioned both on stage and overhead. This intricate arrangement works in harmony to create a sophisticated acoustic shell that envelops the orchestra.",
+        "paragraph2": "The innovative setup is meticulously crafted to significantly enhance sound quality, ensuring that every note resonates beautifully throughout the entire venue. As a result, the audience is treated to an immersive auditory experience that captivates their senses.",
+        "imageAlt": "Concert Hall Mode"
+      },
+      "theatre": {
+        "heading": "Theatre Mode",
+        "subheading": "More Interesting",
+        "paragraph1": "In Theatre mode, the space is suitable for large-scale drama productions, musicals, ballets, lectures, and conferences, seating up to 2,000 people, depending on the configuration.",
+        "paragraph2": "Dubai Opera features several venues, including a rooftop restaurant with views of The Dubai Fountain and Burj Khalifa. Its 2000-seat theatre is a key destination for performing arts and entertainment, embracing its role as Dubai's cultural heart.",
+        "imageAlt": "Theatre Mode"
+      }
+    }
+  },
+  "navbar": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "searchPlaceholder": "Search shows, events, artists..."
+  },
+  "footer": {
+    "dubaiOperaByEmaar": "Dubai Opera by Emaar",
+    "dubaiOperaByEmaarDescription": "Dubai's premier destination for performing",
+    "dubaiOperaByEmaarDescription2": "arts, bringing world-class entertainment to the heart of the Middle East."
+  },
+  "contact": {
+    "bannerTitle": "CONTACT US",
+    "heading": "Have a question?",
+    "subheading": "Fill out the form below and we will get in touch with you.",
+    "ourLocation": "Our Location",
+    "openInMaps": "Open In Maps",
+    "enquiryOptions": {
+      "general": "General",
+      "tickets": "Tickets",
+      "press": "Press"
+    },
+    "form": {
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "First Name",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Last Name",
+      "mobileNumberLabel": "Mobile Number",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "enquiryTypeLabel": "Enquiry Type",
+      "enquiryTypePlaceholder": "Enquiry",
+      "detailsLabel": "Enquiry Details",
+      "detailsPlaceholder": "Type here...",
+      "submitEnquiry": "Submit Enquiry",
+      "submitting": "Submitting..."
+    },
+    "contactInfo": {
+      "addressLine1": "Sheikh Mohammed bin Rashid Blvd -",
+      "addressLine2": "Downtown Dubai - Dubai"
+    },
+    "messages": {
+      "submitSuccess": "Thanks! Your enquiry has been submitted. we will get back to you soon.",
+      "submitFailed": "Failed to submit (HTTP {status}).",
+      "networkError": "Network error."
+    },
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "firstNameInvalid": "Enter a valid first name",
+      "lastNameRequired": "Last name is required",
+      "lastNameInvalid": "Enter a valid last name",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Enter a valid phone number (8–15 digits)",
+      "enquiryTypeRequired": "Please select an enquiry type",
+      "detailsRequired": "Enquiry details are required",
+      "detailsMin": "Please provide at least 10 characters"
+    }
+  },
+  "accessibility": {
+    "bannerTitle": "ACCESSIBILITY",
+    "breadcrumbs": {
+      "home": "Homepage",
+      "accessibility": "Accessibility"
+    },
+    "introTitle": "Make your visit comfortable with Dubai Opera.",
+    "introDescription": "Dubai Opera prides itself on offering facilities for people with special needs and continually ensures that all guests can enjoy an accessible experience.",
+    "features": [
+      {
+        "title": "Wheelchair Users",
+        "description": "Dubai Opera is accessible to wheelchair users, and designated spaces are available for patrons who use wheelchairs and their carers in A, C, and D seating areas, including reserved rows accessible from the Promenade Level. There is lift access to all levels of the building with a designated drop-off area close to the entrance. While some seats may not always be in preferred areas due to configuration, we guarantee the best available wheelchair location.",
+        "fullWidth": true
+      },
+      {
+        "title": "Accessible Restrooms",
+        "description": "Dubai Opera has accessible restrooms on each level, including Basement Parking 1, Fire Impaired Level, Lower Balcony, and Upper Balcony. Locations and measurements are designed for ease of access."
+      },
+      {
+        "title": "Lifts and Escalators",
+        "description": "There is lift access to all levels of Dubai Opera and escalator access between the Lower and Upper Balcony. A stairlift is available on the Promenade Level."
+      },
+      {
+        "title": "Pick Up and Drop Off",
+        "description": "There are 10 parking spaces for people with disabilities located in Basement 2 Plaza Parking."
+      },
+      {
+        "title": "Parking",
+        "description": "We offer valet parking at Dubai Opera onsite during show hours, and the valet car facility operates on a drive-in basis."
+      }
+    ]
+  },
+  "direction": {
+    "bannerTitle": "GET DIRECTIONS",
+    "heading": "Find detailed directions to your destination",
+    "description": "You can access P3 basement parking entrance on Sheikh Mohammed bin Rashid Boulevard; the parking entrance is located after Dubai Opera hashtag. Dubai Opera Parking is closed on non-performance days.",
+    "tabs": {
+      "car": {
+        "label": "By Car or Taxi",
+        "sections": [
+          {
+            "title": "From Abu Dhabi",
+            "text": "Continue on Sheikh Zayed Road E11. Take Exit 50 toward Burj Khalifa/ Financial Center Road (Lower level). Follow the road and take the first exit on the right onto Sheikh Mohammed bin Rashid Blvd. Go straight and follow the Dubai Opera signage.You will pass Dubai Opera, which will be on the opposite side of the road. Continue to the traffic lights for the second U-turn available at the junction near Vida Downtown Hotel. Take the U-turn, and you will be on the opposite side of the Boulevard. Continue straight for P3 Underground Parking and follow signage to Dubai Opera once inside the parking."
+          },
+          {
+            "title": "From Dubai Creek and Sharjah",
+            "text": "Take Oud Metha Rd-E66. Take the exit to Al Asayel Road right before Al-Wasl Sports Club. Follow the road then take the exit on the right at School Street towards Dubai Fountain Street. Continue on Dubai Fountain Street past the roundabout via the second exit, then turn left to Sheikh Mohammed bin Rashid Blvd. Follow the road then turn right near Reem Al-Bawadi Restaurant, continue straight and Dubai Opera is located to your left."
+          }
+        ]
+      },
+      "public": {
+        "label": "By Public Transport",
+        "sections": [
+          {
+            "title": "On metro",
+            "text": "Get off at Burj Khalifa Station on the Red Line and take the walkway to Dubai Opera from Sheikh Mohammed Bin Rashid Boulevard. (Approximately 25 mins walking distance) Dubai Opera is also easily accessible from The Dubai Mall."
+          },
+          {
+            "title": "On bus",
+            "text": "Get off at the stop of Dubai Mall Metro Station and take the walkway to Dubai Opera from Sheikh Mohammed Bin Rashid Boulevard."
+          }
+        ]
+      }
+    }
+  },
+  "visitDining": {
+    "heroTitle": "The Dining Experiences",
+    "slideNavigationAria": "Slide navigation",
+    "goToSlideAria": "Go to slide {index}",
+    "previousSlideAria": "Previous slide",
+    "nextSlideAria": "Next slide",
+    "sectionTitle": "Discover the Finest Dining Experiences",
+    "sectionDescription": "Discover a wide range of exquisite pre-theatre dinner experiences in Downtown Dubai from exclusive fine dining to chic lounges and family-friendly restaurants.",
+    "emailLabel": "Email address:",
+    "heroImages": [
+      { "id": 1, "src": "/dining/diningExperiencesbackgrond.avif", "alt": "Dining Experience 1" },
+      { "id": 2, "src": "/dining/diningExperiencesbackgrond.avif", "alt": "Dining Experience 2" },
+      { "id": 3, "src": "/dining/diningExperiencesbackgrond.avif", "alt": "Dining Experience 3" }
+    ],
+    "experiences": [
+      {
+        "title": "Pre-Show Dinner",
+        "image": "/dining/Pre-ShowDinner.avif",
+        "description": "Enjoy the majestic backdrop of the Dubai Fountain as you dine in the beautiful Grand Circle level at Dubai Opera. The new dinner area offers an ultra-chic and relaxed pre-show dining experience for Dubai Opera's patrons. Drop in before the show for a drink and a bite with family and friends. Relax in our comfortable lobby-style seating whilst enjoying our high quality service and new season menu. Join us after the show for the most glamorous mocktails and cocktails in the city!",
+        "packages": [
+          {
+            "subtitle": "Pre-show Dinner - AED 240",
+            "subDescription": "Three-course set menu + One House beverage from our specially selected menu\n(Alcoholic or Non-Alcoholic available)"
+          }
+        ],
+        "note": "Reservation is required due to the dining area's limited capacity.",
+        "location": "Dubai Opera, Grand Circle",
+        "phone": "04 440 8888",
+        "buttons": [{ "label": "Location Map", "href": "#", "external": false, "variant": "secondary" }]
+      },
+      {
+        "title": "The Lounge",
+        "image": "/dining/TheLounge.avif",
+        "description": "The Lounge offers a luxurious experience to add some sparkle to your visit. Serving the finest French bubbles and canapes from two hours prior to the start of the performance.\nLocated inside Dubai Opera",
+        "packages": [
+          {
+            "subtitle": "The Lounge Experience - AED 225",
+            "subDescription": "Entry to The Lounge up to 2 hours prior to the performance and during the interval.\nA welcome mini bottle (20 cl) & a platter of canapes on arrival"
+          }
+        ],
+        "location": "Dubai Opera Building",
+        "phone": "04 440 8888",
+        "buttons": [{ "label": "Location Map", "href": "#", "external": false, "variant": "secondary" }]
+      },
+      {
+        "title": "Belcanto",
+        "image": "/dining/Belcanto.avif",
+        "description": "Drawing inspiration from the beauty and flavours of Italy, Belcanto presents a captivating gastronomic journey. Each dish on the menu has been carefully crafted by Head Chef Fabrizio Focacci using the freshest and finest seasonal ingredients.\n\nSituated atop the Dubai Opera, immerse yourself in a warm and inviting atmosphere, whether it's for a pre-show or post-show dinner. Beyond its delectable cuisine, Belcanto also boasts a diverse array of entertainment, and is an ideal venue for hosting private events in a luxurious setting.",
+        "email": "reservations@belcantorest.com",
+        "phone": "04 456 0936",
+        "buttons": [
+          { "label": "Website", "href": "#", "external": true, "variant": "secondary" },
+          { "label": "Instagram", "href": "#", "external": true, "variant": "primary" }
+        ]
+      },
+      {
+        "title": "Bisou",
+        "image": "/dining/Bisou.avif",
+        "description": "Bisou is the fine dining restaurant that promises an unforgettable dining experience that marries the refined elegance of French cuisine with the warm hospitality of Middle Eastern traditions. At the helm of Bisou's culinary adventure are the renowned Brand Chef Vladimir Chistyakov and Chef Alexander Levchenkov, who have masterfully curated a menu that showcases the harmonious fusion of French and Middle Eastern flavors. Signature dishes, such as exotic Dates with tahini, yuzu and black caviar, indulgent Foie Gras terrine paired with sweet apricots, and the richly satisfying Lamb Shoulder accompanied by root vegetables are designed to transport diners to a realm of unparalleled gastronomic delight. Adding to the immersive experience, Bisou's bar extends an invitation to a journey inspired by the love and creativity found within the pages of classic literature.",
+        "hours": "Opening Hours: Monday-Sunday 9AM - 12 AM",
+        "buttons": [
+          { "label": "Website", "href": "#", "external": true, "variant": "secondary" },
+          { "label": "Instagram", "href": "#", "external": true, "variant": "primary" }
+        ]
+      },
+      {
+        "title": "Alba",
+        "image": "/dining/Alba.avif",
+        "description": "The fine dining Alba's cuisine serves as a bridge connecting Asia with Europe on a single plate, symbolic as the vibrant life of the metropolis where cultures seamlessly blend together. Drawing inspiration from China, Japan, South Korea, and infused with Mediterranean flair, the restaurant promises unexpected flavours and delectable dishes where guests can savour the joy of delicious food every day. Guided by the expertise of renowned Brand Chef Vladimir Chistyakov and Chef Minho Ted Shin, the signature dishes feature, Scallops Crudo, Beef Yuk Hwe, a luxurious blend of Uni, Truffle, and Caviar, and Wagyu Maki served with delicious Foie Gras. Alba boasts a captivating bar concept and an array of the highest quality organic teas, from green teas, oolongs, to soothing herbal blends.",
+        "hours": "Opening Hours: Monday-Sunday 6PM - 12 AM",
+        "buttons": [
+          { "label": "Website", "href": "#", "external": true, "variant": "secondary" },
+          { "label": "Instagram", "href": "#", "external": true, "variant": "primary" }
+        ]
+      }
+    ]
+  },
+  "faqs": {
+    "bannerTitle": "FAQS",
+    "heading": "Frequently Asked Question",
+    "groups": [
+      {
+        "category": "Box Office",
+        "faqs": [
+          {
+            "question": "I purchased tickets online, can my friend collect my tickets from the box office?",
+            "answer": "The registered patron is the only person authorised to collect tickets purchased online. If the registered patron is unable to attend an event and is authorising for another person to collect the tickets on their behalf, they must complete a Letter of Authorisation which can be obtained by emailing boxoffice@dubaiopera.com. This must be pre-arranged prior to the show."
+          },
+          {
+            "question": "Yes, your friend can collect the tickets on your behalf. Please ensure they have a valid ID and the confirmation email.",
+            "answer": "This ensures the security of the ticket delivery process."
+          },
+          {
+            "question": "What are the box office opening hours?",
+            "answer": "The box office typically opens two hours before the event begins and closes thirty minutes after the event starts."
+          },
+          {
+            "question": "The box office typically opens two hours before the event begins and closes thirty minutes after the event starts.",
+            "answer": "For more specific inquiries, please contact our team."
+          },
+          {
+            "question": "Can I get a refund if I can't attend the event?",
+            "answer": "Refund policies vary by event. Please check the specific event details or contact customer service for assistance."
+          },
+          {
+            "question": "Refund policies vary by event. Please check the specific event details or contact customer service for assistance.",
+            "answer": "Our standard policy is non-refundable unless stated otherwise."
+          },
+          {
+            "question": "Is it possible to exchange my tickets for a different date?",
+            "answer": "Exchanges are allowed depending on the event's policy. Please reach out to the box office for more information."
+          },
+          {
+            "question": "Exchanges are allowed depending on the event's policy. Please reach out to the box office for more information.",
+            "answer": "There may be a small exchange fee in certain cases."
+          }
+        ]
+      },
+      {
+        "category": "General Ticketing",
+        "faqs": [
+          {
+            "question": "Do infants require a ticket for entry?",
+            "answer": "Yes, all visitors regardless of age require a valid ticket to enter the venue."
+          },
+          {
+            "question": "Can I purchase tickets at the venue on the day of the show?",
+            "answer": "Subject to availability, tickets can be purchased at the venue prior to the show."
+          }
+        ]
+      },
+      {
+        "category": "Online Purchase",
+        "faqs": [
+          {
+            "question": "What payment methods are accepted online?",
+            "answer": "We accept all major credit and debit cards, including Visa, MasterCard, and American Express."
+          },
+          {
+            "question": "I didn't receive my confirmation email. What should I do?",
+            "answer": "Please check your spam or junk folder. If you still cannot find it, please contact our customer support with your booking details."
+          }
+        ]
+      },
+      {
+        "category": "Ticket Delivery",
+        "faqs": [
+          {
+            "question": "How will I receive my tickets?",
+            "answer": "Most tickets are delivered electronically as e-tickets. You can download them from your confirmation email or by logging into your account."
+          }
+        ]
+      },
+      {
+        "category": "Venue Related",
+        "faqs": [
+          {
+            "question": "Is there parking available at the venue?",
+            "answer": "Paid parking is available near the venue. We recommend arriving early as parking can fill up quickly during events."
+          },
+          {
+            "question": "Is the venue wheelchair accessible?",
+            "answer": "Yes, the venue is fully accessible. Please notify us at the time of booking if you require accessible seating."
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "bannerTitle": "TERMS & CONDITIONS",
+    "intro": "This ticket is sold subject to these Ticketing Terms and Conditions (the T&C). The T&C should be read carefully prior to purchase and purchase of Ticket(s) constitutes acceptance of the T&C.",
+    "ticketTerms": [
+      "This ticket must be produced to gain entry into an event.",
+      "Removing any part of, altering or defacing the ticket may invalidate it.",
+      "This ticket must not, without the prior written consent of Dubai Opera, be resold or used for advertising, promotion or other commercial purposes, if not the ticket will be cancelled immediately.",
+      "This ticket is only valid for the specific date, time and event shown.",
+      "Dubai Opera does not offer refunds or exchanges as a result of a change in your personal circumstances. Dubai Opera at its sole discretion may only refund or exchange a ticket if an event is cancelled or rescheduled and you cannot attend the rescheduled event. This includes, but is not limited to, any circumstances related to Covid-19 which might prevent you from attending.",
+      "Dubai Opera can only replace lost, stolen or damaged tickets if the authenticity of the ticket can be verified, including proof of purchase, subject to replacement fee.",
+      "Dubai Opera reserves the right to add, withdraw, reschedule or substitute artists and/or vary advertised programmes, prices, seating arrangements and audience capacity without prior notice.",
+      "Admission to an event is subject to Dubai Opera's Conditions of Entry which can be found on Dubai Opera's website www.dubaiopera.com.",
+      "Where concessions are applicable, valid proof of identity and concession entitlement must be provided for collection of tickets at the event.",
+      "Entry to the event may be subject to age restrictions specified in Dubai Opera's website www.dubaiopera.com or in publicity for the event, and no refund will be made on the grounds that the ticket holder was not aware of such age restrictions.",
+      "Dubai Opera reserves the right without refund or compensation to refuse admission/evict any person(s) whose conduct is disorderly or inappropriate or who poses a threat to security, or to the enjoyment of the event by others.",
+      "The ticket holder agrees to submit to any search for any prohibited items including but not limited to weapons, controlled, dangerous and illegal substances and recording devices.",
+      "To preserve the integrity of the performance and respect fellow audience members, latecomers will not be admitted into the auditorium once the show has begun. Entry will only be permitted during intermission, if applicable.",
+      "We recommend arriving early to ensure timely access.",
+      "The use of mobile phones, camera and other electronic devices inside the auditorium are prohibited. Exceptions may occur depending on the type of event.",
+      "Dubai Opera is the ideal venue to celebrate elegance and style. Guests are expected to dress accordingly avoiding attires that are excessively casual (such as shorts or flip flops) or that violate the venue's dress code standards. Our commitment to promoting cultural diversity and inclusivity extends a warm welcome to all national and traditional styles.",
+      "The ticket holder voluntarily assumes all risk and danger incidental to the event whether occurring prior to, during or subsequent to the actual event, including any death, personal injury, loss, damage or liability.",
+      "Food & Beverage purchased outside Dubai Opera are not permitted. Food and beverages are strictly prohibited inside the auditorium. This applies before the show, during the show and during the intermission. Exceptions may occur depending on the type of event."
+    ]
+  }
+}
+
