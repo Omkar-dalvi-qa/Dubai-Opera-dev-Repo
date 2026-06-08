@@ -152,7 +152,7 @@ pipeline {
             ])
 
             emailext(
-                to: "omkardalvi861@gmail.com",
+                to: "omkardalvi861@gmail.com, ${env.DEV_COMMIT_EMAIL}",
                 subject: "Dubai Opera Tests — Build #${BUILD_NUMBER}: ${currentBuild.currentResult}",
                 body: """
                     <html>
