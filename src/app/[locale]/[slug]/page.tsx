@@ -175,15 +175,4 @@ export default async function DynamicPage({
 }
 ///Testing jenkins
 
-//jbhd
-//njnkn
-///jbdbksjnj
-///scasd
-///dhbjhbsdjk
-
-///djensnkdsn
-///djndskn
-//fkdsnbkjjn
-//sddsfd
-
-///dsjkbkj
+//j
