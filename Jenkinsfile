@@ -22,7 +22,7 @@ pipeline {
         stage('Trigger Tests') {
             steps {
                 script {
-                    build job: 'dubai-test-repo',
+                    build job: 'dubai-opera-automation-testing',
                         wait: true,
                         propagate: false,
                         parameters: [
