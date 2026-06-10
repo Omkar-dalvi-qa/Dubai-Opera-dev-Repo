@@ -177,7 +177,3 @@ export default async function DynamicPage({
 
 //jbhd
 //njnkn
-///asdd
-
-//dsdd
-////bjnjk
