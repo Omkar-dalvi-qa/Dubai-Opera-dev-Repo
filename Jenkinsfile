@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     build job: 'dubai-opera-automation-testing',
-                        wait: true,
+                        wait: false,
                         propagate: false,
                         parameters: [
                             string(name: 'DEV_AUTHOR', value: env.DEV_AUTHOR ?: 'N/A'),
